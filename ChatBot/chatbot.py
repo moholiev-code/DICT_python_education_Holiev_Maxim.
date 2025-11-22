@@ -38,3 +38,13 @@ def stage5():
             break
         else:
             print("Incorrect. Try again.")
+
+def main():
+    stage1()
+    user_name = stage2()
+    stage3(user_name)
+    stage4()
+    stage5()                # S
+
+if __name__ == "__main__":
+    main()
