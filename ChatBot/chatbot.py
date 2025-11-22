@@ -44,7 +44,7 @@ def main():
     user_name = stage2()
     stage3(user_name)
     stage4()
-    stage5()                # S
+    stage5()                
 
 if __name__ == "__main__":
     main()
