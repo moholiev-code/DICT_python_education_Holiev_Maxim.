@@ -20,8 +20,9 @@ while True:
         print("Special commands: !help !done")
 
     elif command == "!done":
+        with open("output.md", "w", encoding="utf-8") as file:
+            file.write(markdown)
         break
-
     elif command == "plain":
         text = input("Text: ")
         markdown += text
