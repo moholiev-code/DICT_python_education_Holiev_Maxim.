@@ -56,5 +56,8 @@ while True:
         url = input("URL: ")
         markdown += f"[{label}]({url})"
         print(markdown)
+    elif command == "new-line":
+        markdown += "\n"
+        print(markdown)
     else:
         print("Unknown formatting type or command")
