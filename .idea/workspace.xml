@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa80dd60-a5ce-4ce4-a314-a2db2735ba89" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/simplified_markdown_editor/simplified_markdown_editor.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplified_markdown_editor/simplified_markdown_editor.py" afterDir="false" />
-    </list>
+    <list default="true" id="aa80dd60-a5ce-4ce4-a314-a2db2735ba89" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

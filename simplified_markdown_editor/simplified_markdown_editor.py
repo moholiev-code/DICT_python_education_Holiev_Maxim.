@@ -68,5 +68,20 @@ while True:
         text = input("Text: ")
         markdown += "#" * level + " " + text + "\n"
         print(markdown)
+    elif command == "ordered-list":
+
+        while True:
+            rows = int(input("Number of rows: "))
+
+            if rows > 0:
+                break
+
+            print("The number of rows should be greater than zero")
+
+        for i in range(rows):
+            text = input(f"Row #{i + 1}: ")
+            markdown += f"{i + 1}. {text}\n"
+
+        print(markdown)
     else:
         print("Unknown formatting type or command")
