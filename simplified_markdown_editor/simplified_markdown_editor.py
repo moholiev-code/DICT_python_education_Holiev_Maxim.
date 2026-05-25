@@ -51,5 +51,10 @@ while True:
         text = input("Text: ")
         markdown += f"`{text}`"
         print(markdown)
+    elif command == "link":
+        label = input("Label: ")
+        url = input("URL: ")
+        markdown += f"[{label}]({url})"
+        print(markdown)
     else:
         print("Unknown formatting type or command")
