@@ -39,6 +39,17 @@ while True:
         text = input("Text: ")
         markdown += text
         print(markdown)
-
+    elif command == "bold":
+        text = input("Text: ")
+        markdown += f"**{text}**"
+        print(markdown)
+    elif command == "italic":
+        text = input("Text: ")
+        markdown += f"*{text}*"
+        print(markdown)
+    elif command == "inline-code":
+        text = input("Text: ")
+        markdown += f"`{text}`"
+        print(markdown)
     else:
         print("Unknown formatting type or command")
