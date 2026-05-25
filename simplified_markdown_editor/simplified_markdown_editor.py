@@ -59,5 +59,14 @@ while True:
     elif command == "new-line":
         markdown += "\n"
         print(markdown)
+    elif command == "header":
+        while True:
+            level = int(input("Level: "))
+            if 1 <= level <= 6:
+                break
+            print("The level should be within the range of 1 to 6")
+        text = input("Text: ")
+        markdown += "#" * level + " " + text + "\n"
+        print(markdown)
     else:
         print("Unknown formatting type or command")
